@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('turtle')
-  .controller('ListCtrl', function ($scope, $stateParams, $rootScope) {
+  .controller('ListCtrl', function ($scope, $stateParams, $rootScope, $state) {
 
     $rootScope.list = angular.fromJson(decodeURIComponent($stateParams.listName));
     console.log('schpe Lstname: ',$stateParams.listName);

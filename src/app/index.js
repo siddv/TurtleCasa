@@ -17,8 +17,8 @@ angular.module('turtle', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ng
 
       .state('basket', {
         url: '/basket/:listName',
-        templateUrl: 'app/product/basket.html',
-        controller: 'basketCtrl'
+        templateUrl: 'app/basket/basket.html',
+        controller: 'BasketCtrl'
       });
 
     $urlRouterProvider.otherwise('/');
