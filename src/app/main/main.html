@@ -1,0 +1,73 @@
+
+  <div ng-include="'app/components/navbar/navbar.html'"></div>
+
+  <div class="jumbotron text-center">
+    <div class="minitron">
+      <h1>Turtle Casa</h1>
+      <p class="lead">
+        Disrupting the way you get household products. Forever.
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container">
+      <div class="col-sm-12 col-md-4">
+        <h2>Kitchen</h2>
+
+        <div class="thumbnail" ng-repeat="kitchenItem in kitchen | orderBy:'rank'">
+          <div class="thumb-image clearfix">
+            <img class="pull-right" ng-src="assets/images/{{kitchenItem.logo}}" alt="{{kitchenItem.title}}">
+            <div class="stars"><span ng-repeat="i in kitchenItem.stars" class="fa fa-star"></span></div>
+          </div>
+          <div class="caption">
+            <h3>{{kitchenItem.title}}</h3>
+            <p>{{kitchenItem.description}}</p>
+            <!--<p><a ng-href="{{kitchenItem.url}}">{{kitchenItem.url}}</a></p>-->
+            <button ng-click="goToList(kitchenItem)" type="button" class="btn btn-default btn-success">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <h2>Bathroom</h2>
+
+        <div class="thumbnail" ng-repeat="bathroomItem in bathroom | orderBy:'rank'">
+          <div class="thumb-image clearfix">
+            <img class="pull-right" ng-src="assets/images/{{bathroomItem.logo}}" alt="{{bathroomItem.title}}">
+            <div class="stars"><span ng-repeat="i in bathroomItem.stars" class="fa fa-star"></span></div>
+          </div>
+          <div class="caption">
+            <h3>{{bathroomItem.title}}</h3>
+            <p>{{bathroomItem.description}}</p>
+            <!--<p><a ng-href="{{bathroomItem.url}}">{{bathroomItem.url}}</a></p>-->
+            <button ng-click="goToList(bathroomItem)" type="button" class="btn btn-default btn-success">Explore</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-4">
+        <h2>Homeware</h2>
+
+        <div class="thumbnail" ng-repeat="homeItem in home | orderBy:'rank'">
+          <div class="thumb-image clearfix">
+            <img class="pull-right" ng-src="assets/images/{{homeItem.logo}}" alt="{{homeItem.title}}">
+            <div class="stars"><span ng-repeat="i in homeItem.stars" class="fa fa-star"></span></div>
+          </div>
+          <div class="caption">
+            <h3>{{homeItem.title}}</h3>
+            <p>{{homeItem.description}}</p>
+            <!--<p><a ng-href="{{homeItem.url}}">{{homeItem.url}}</a></p>-->
+            <button ng-click="goToList(homeItem)" type="button" class="btn btn-default btn-success">Explore</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="footer">
+    <p></p>
+  </div>
+

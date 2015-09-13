@@ -1,0 +1,92 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+/* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+// injector
+// endinjector
+
+nav.navbar {
+  margin-bottom: 0;
+}
+.thumbnail {
+  padding: 8px;
+
+  .caption{
+    width: 100%;
+  }
+
+  .thumb-image{
+    position: relative;
+  }
+
+  .stars{
+    position: absolute;
+    right: 8px;
+    bottom: 16px;
+
+    span{
+      font-size: 18px;
+      margin: 0 1px;
+      display: inline-block;
+      background: -webkit-linear-gradient(#F0E78C, #9A6620);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+
+  img.pull-right {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
+
+
+.jumbotron{
+
+  background-image: url('/assets/images/sims.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+
+  .minitron{
+    background-color: rgba(24,24,24,0.6);
+    text-shadow: 0px 0px 8px #000;
+    color: #fff;
+    width: 100%;
+   // max-width: 800px;
+    margin: 0 auto;
+    padding: 92px 24px;
+
+  }
+}
+
+.table{
+  tbody,thead{
+    tr{
+      td,th{
+        padding: 16px;
+      }
+    }
+  }
+}
+
+.brief{
+  margin-top: 20px;
+  line-height: 1.7em;
+  font-size: 17px;
+}
+
+.fa-refresh{
+  color: #66afe9;
+}
+
+.fa-times{
+  color: #c7254e;
+}
