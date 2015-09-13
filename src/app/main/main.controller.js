@@ -7,13 +7,12 @@ angular.module('turtle')
         'title': 'Bare Essentials Kit',
         'url': 'https://angularjs.org/',
         'description': 'High quality essentials.',
-        'logo': 'lynx.jpg',
+        'logo': 'student.jpg',
         'stars': [1,2,3,4],
         'items':[
-          'Fairy Liquid',
+          'Other Liquid',
           'Sponges',
-          'Bovril',
-          'Finish',
+          'Other dishwasher liqued',
           'PG Tips'
         ],
         'brief': 'The Bare Essentials kit contains all the essentials for a healthy kitchen. I\'ve lived as a student for three years and I believe I\'ve optimised my products to create the perfect balance between cost and effectivenes. It\'s the perfect frugal kitchen kit.'
@@ -23,7 +22,7 @@ angular.module('turtle')
         'title': 'The Student Pack',
         'url': 'http://browsersync.io/',
         'description': 'This kit brings you essentials on a budget. No frills.',
-        'logo': 'lynx.jpg',
+        'logo': 'bang.jpg',
         'stars': [1,2,3,4,5],
         'items':[
           'Fairy Liquid',
@@ -42,11 +41,8 @@ angular.module('turtle')
         'logo': 'lynx.jpg',
         'stars': [1,2,3],
         'items':[
-          'Fairy Liquid',
           'Sponges',
-          'Bovril',
-          'Finish',
-          'PG Tips'
+          'Bovril'
         ],
         'brief': 'Steve\s kit contains all the essentials for a healthy kitchen. I\'ve lived as a student for three years and I believe I\'ve optimised my products to create the perfect balance between cost and effectivenes. It\'s the perfect frugal kitchen kit.'
 
@@ -65,7 +61,7 @@ angular.module('turtle')
         'title': 'Ultimate Bathroom Kit',
         'url': 'http://karma-runner.github.io/',
         'description': 'Spectacular Test Runner for JavaScript.',
-        'logo': 'radox.jpg',
+        'logo': 'b1.jpg',
         'stars': [1,2,3,4]
       },
       {
@@ -82,14 +78,14 @@ angular.module('turtle')
         'title': 'Royal Suite Kit',
         'url': 'http://getbootstrap.com/',
         'description': 'Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.',
-        'logo': 'lynx.jpg',
+        'logo': 'supplies.jpg',
         'stars': [1,2,3]
       },
       {
         'title': 'Fresh and Clean',
         'url': 'http://angular-ui.github.io/bootstrap/',
         'description': 'Bootstrap components written in pure AngularJS by the AngularUI Team.',
-        'logo': 'lynx.jpg',
+        'logo': 'stuff.jpg',
         'stars': [1,2,3,4]
       },
       {

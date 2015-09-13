@@ -1,6 +1,6 @@
 'use strict';
 
 angular.module('turtle')
-  .controller('BasketCtrl', function ($scope, $stateParams, $rootScope) {
+  .controller('BasketCtrl', function ($scope) {
     $scope.showSummary=false;
   });

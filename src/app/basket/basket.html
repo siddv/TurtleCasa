@@ -16,11 +16,11 @@
       <div class="col-sm-12 col-md-6">
         <h2>Summary</h2>
         <p>
-          <h3>{{list.title}}</h3>
+          <h3>1 x {{list.title}}</h3>
         </p>
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <table class="table animate-show summary-show" ng-show="showSummary">
+            <table class="table animate-show summary-show">
               <thead>
               <tr>
                 <th>Item</th>
@@ -32,7 +32,6 @@
               </tr>
               </tbody>
             </table>
-            <a href="#" class="summary" ng-click="showSummary = !showSummary">show summary</a>
           </div>
         </div>
       </div>
@@ -40,6 +39,28 @@
         <h2>
           Details
         </h2>
+        <table class="table">
+          <tbody>
+          <tr>
+            <td>Frequency</td>
+            <td>Monthly</td>
+
+          </tr>
+          <tr>
+            <td>Cost</td>
+            <td>£20 /Month</td>
+
+          </tr>
+          <tr>
+            <td>Good for</td>
+            <td>Four people</td>
+
+          </tr>
+          </tbody>
+        </table>
+        <p>
+          <a href="http://localhost:8080" class="btn btn-default btn-success">Subscribe</a>
+        </p>
       </div>
     </div>
   </div>
