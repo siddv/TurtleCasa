@@ -2,5 +2,5 @@
 
 angular.module('turtle')
   .controller('BasketCtrl', function ($scope, $stateParams, $rootScope) {
-    $scope.sfsdfdsf = "";
+    $scope.showSummary=false;
   });

@@ -8,7 +8,16 @@ angular.module('turtle')
         'url': 'https://angularjs.org/',
         'description': 'High quality essentials.',
         'logo': 'lynx.jpg',
-        'stars': [1,2,3,4]
+        'stars': [1,2,3,4],
+        'items':[
+          'Fairy Liquid',
+          'Sponges',
+          'Bovril',
+          'Finish',
+          'PG Tips'
+        ],
+        'brief': 'The Bare Essentials kit contains all the essentials for a healthy kitchen. I\'ve lived as a student for three years and I believe I\'ve optimised my products to create the perfect balance between cost and effectivenes. It\'s the perfect frugal kitchen kit.'
+
       },
       {
         'title': 'The Student Pack',
@@ -31,7 +40,16 @@ angular.module('turtle')
         'url': 'http://gulpjs.com/',
         'description': 'This is the kit i use at home. works well for me.',
         'logo': 'lynx.jpg',
-        'stars': [1,2,3]
+        'stars': [1,2,3],
+        'items':[
+          'Fairy Liquid',
+          'Sponges',
+          'Bovril',
+          'Finish',
+          'PG Tips'
+        ],
+        'brief': 'Steve\s kit contains all the essentials for a healthy kitchen. I\'ve lived as a student for three years and I believe I\'ve optimised my products to create the perfect balance between cost and effectivenes. It\'s the perfect frugal kitchen kit.'
+
       }
     ];
 
